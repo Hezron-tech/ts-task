@@ -5,7 +5,7 @@ const router=Router()
 
 
 
-router.post("/api" ,async(req,res)=>{
+router.post("" ,async(req,res)=>{
     try {
 
 
