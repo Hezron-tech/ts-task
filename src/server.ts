@@ -23,7 +23,7 @@ app.post("/" ,async(req,res)=>{
         }
         
         const intX = Number(x)
-        const intY = Number(x)
+        const intY = Number(y)
 
         let result;
 
