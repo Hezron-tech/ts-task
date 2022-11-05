@@ -37,7 +37,7 @@ const app = (0, express_1.default)();
 app.use((0, express_1.json)());
 app.use((0, cors_1.default)());
 const port = process.env.PORT || 3000;
-app.post("api", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+app.post("/api", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         let { x, y, operation_type } = req.body;
         if (!operation_type || !x || !y) {

@@ -10,7 +10,7 @@ app.use(cors())
 
 const port=process.env.PORT || 3000
 
-app.post("api" ,async(req,res)=>{
+app.post("/api" ,async(req,res)=>{
     try {
 
 
